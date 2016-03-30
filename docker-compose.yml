@@ -1,0 +1,8 @@
+# PROXY ROUTER FOR DOCKER
+hipache:
+  image: sylviefiat/docker-haproxy
+  hostname: haproxy
+  ports:
+    - "80:80"
+  volumes:
+    - ./haproxy_data:/usr/local/etc/haproxy
