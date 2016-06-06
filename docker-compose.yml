@@ -1,5 +1,5 @@
 # PROXY ROUTER FOR DOCKER
-hipache:
+haproxy:
   image: sylviefiat/docker-haproxy
   hostname: haproxy
   ports:
